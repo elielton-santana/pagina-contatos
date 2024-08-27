@@ -28,7 +28,7 @@ html body {
     align-items: center;
     justify-content: center;
 
-    background: linear-gradient(to right, rgba(6, 30, 116, 0.559), rgba(167, 66, 3, 0.59));
+    background: linear-gradient(to right, rgba(29, 170, 175, 0.559), rgba(68, 13, 231, 0.59));
 }
 
 .img-apresent {
@@ -53,46 +53,36 @@ h1 {
 
 .img-apresent .avatar {
     
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0px 0px 50px rgb(3, 8, 53);
 
-    
 }
-
-ul {
-    padding: 0;
-}
-.links a {
-    text-decoration: none;
-    color: white;
-}
-
-
-.links li{
-    margin: 10px;
-    
-    border-radius: 30px;
-    text-align: center;
-    
-    height: 40px;
-    width: 200px;
-    background-color: rgb(0, 2, 142);
-    
-    list-style-type: none;
-}
-
-.links li:hover {
-    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.59);
-}
-
 
 .info-cont {
     display: flex;
     flex-flow: column;
-    width: 80%;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.links a {
+    text-decoration: none;
     text-align: center;
+    border: solid 2px red;
+    width: 150px;
+    height: 23PX;
+    margin: 8px;
+}
+
+a i {
+    color: yellowgreen;
 }
 
 .rodape {

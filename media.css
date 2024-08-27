@@ -2,7 +2,7 @@
     .container {
         border: solid 1px white;
         box-shadow: none;
-        width: 425px;
+        width: 100vw;
         height: 100vh;
         border-radius: 0;
         background: rgba(0, 0, 0, 0.436);
