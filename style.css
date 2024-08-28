@@ -4,17 +4,13 @@ html body {
     justify-content: center;
     align-items: center;
     background-image: url(imgs/essa.jpg);
-
     font-family: 'minha-fonte';
-
 }
 
 @font-face {
     font-family: 'minha-fonte';
     src: url(fonts/The\ Vicious\ Circle.ttf);
 }
-
-
 
 .container {
     padding: 10px;
@@ -24,10 +20,8 @@ html body {
     flex-flow: column;
     width: 25%;
     height: 90%;
-
     align-items: center;
     justify-content: center;
-
     background: linear-gradient(to right, rgba(29, 170, 175, 0.559), rgba(68, 13, 231, 0.59));
 }
 
@@ -43,21 +37,17 @@ h1 {
     margin: 0;
 }
 
-
 .img-apresent p{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .img-apresent .avatar {
-    
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     box-shadow: 0px 0px 50px rgb(3, 8, 53);
-
 }
 
 .info-cont {
@@ -69,20 +59,33 @@ h1 {
 .links {
     display: flex;
     flex-flow: column;
-
+    padding-inline-start: 0;
 }
 
 .links a {
     text-decoration: none;
     text-align: center;
-    border: solid 2px red;
-    width: 150px;
-    height: 23PX;
-    margin: 8px;
 }
 
-a i {
-    color: yellowgreen;
+ul li {
+    margin: 5px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ul .whatsapp {
+    list-style: inside url(incons/icons8-whatsapp-16.png);
+}
+
+ul .github {
+    list-style: inside url(incons/icons8-github-16.png);
+}
+ul .linkedin {
+    list-style: inside url(incons/icons8-linkedin-16.png);
+}
+ul .facebook {
+    list-style: inside url(incons/icons8-facebook-novo-16.png);
 }
 
 .rodape {
